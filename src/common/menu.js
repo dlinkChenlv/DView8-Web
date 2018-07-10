@@ -135,6 +135,21 @@ const menuData = [
     ],
   },
   {
+    name: 'System',
+    icon: 'setting',
+    path: 'system',
+    children: [
+      {
+        name: 'Basic settings',
+        path: 'base-settings',
+      },
+      {
+        name: 'Network management',
+        path: '404',
+      },
+    ],
+  },
+  {
     name: '账户',
     icon: 'user',
     path: 'user',
